@@ -5,14 +5,123 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="src/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="src/css/style.min.css">
+    <link rel="stylesheet" href="src/css/slick.css">
+    <link rel="stylesheet" href="src/css/blocks/style.min.css">
 </head>
 <body>
-    <h1>hello</h1>
-    <h2>hello2</h2>
-    <h3>fuhyj</h3>
-    <h5>rtgh</h5>
+    <section class="promo">
+        <div class="container">
+            <header class="header">
+                <a href="#" class="header__logo">
+                    <img src="/src/icons/runsmart.png" alt="bg_run">
+                </a>
+                <div class="header__official">
+                    Официальный представитель
+                    <span> Garmin, Polar, Suunto </span>
+                </div>
+                <div class="header__contacts">
+                    <a href="tel:+74999228974" class="header__phone"> +7 (499) 922-89-74 </a>
+                    <button class="button"> заказать звонок </button>
+                    </div>
+            </header>
+            <div class="promo__wrapper">
+                <h1 class="promo__header"> Подбор пульсометра </h1>
+                <h2 class="promo__subheader"> с учётом Вашего уровня подготовки </h2>
+                <div class="promo__icons">
+                        <div class="promo__icon">
+                        <img src="/src/icons/time_10.png" alt="time">
+                            Время подбора:
+                            10 минут
+                        </div>
+                        <div class="promo__icon">
+                            <img src="/src/icons/free_delivery.png" alt="dekivery">
+                            Бесплатная доставка
+                        </div>
+                        <div class="promo__icon">
+                            <img src="/src/icons/answers.png" alt="answers">
+                            Ответим на все вопросы
+                        </div>
+                </div>
+                <button class="button button_main"> Заказать консультацию </button>
+                <div class="promo__link">
+                    или 
+                    <a href="#"> ПЕРЕЙТИ В КАТАЛОГ </a>
+                </div>
+            </div>
+        </div>      
+    </section>
+
+    <section class="our_advanteges"> 
+        <div class="container">
+            <h1 class="our_advanteges_header"> НАШИ ПРЕИМУЩЕСТВА </h1>
+            <div class="our_advanteges_wrapper">
+                <div class="our_advanteges_icons">
+                    <div class="our_advanteges_icon">
+                        <img src="/src/icons/cup.png" alt="cup">
+                        <div class="our_advanteges_subheader"> Делимся опытом</div>
+                        <div class="our_advanteges_text"> Наши сотрудники всегда готовы поделиться опытом, так как сами бегают полумарафоны, переплыли Босфор, сами готовятся к соревнованиям по триатлону!</div>
+                    </div>
+                    <div class="our_advanteges_icon">
+                        <img src="/src/icons/heart.png" alt="heart">
+                        <div class="our_advanteges_subheader"> Заботимся о здоровье </div>
+                        <div class="our_advanteges_text"> Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были врадость Вам и Вашим близким!</div>
+                    </div>
+                    <div class="our_advanteges_icon">
+                        <img src="/src/icons/shoe.png" alt="shoe">
+                        <div class="our_advanteges_subheader"> Учим бегать</div>
+                        <div class="our_advanteges_text"> Помогаем с обучением правильной технике бега! Джужим с круснейшей школой бега в России - <span> I LOVE RUNNING </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                    Получите бесплатную консультацию <br> 
+                    по подбору пульсометра
+            </h1>
+            <div class="consultation__descr"> 
+                    Просто заполните форму заявки <br> 
+                    и мы перезвоним вам в течение 10 минут 
+            </div>
+
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="E-mail" required placeholder="Ваше E-mail" type="email">
+                <!-- <input type="submit" value="Заказать консультацию"> -->
+                <button class="button button_submit"> Заказать консультацию </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div>
+                    <img src="src/img/slide_1.png" alt="slide_1">
+                </div>
+                <div>
+                    <img src="src/img/slide_2.png" alt="slide_2">
+                </div>
+                <div>
+                    <img src="src/img/slide_3.png" alt="slide_3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1> january </h1>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="src/js/slick.min.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>

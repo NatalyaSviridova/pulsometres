@@ -1,0 +1,90 @@
+@import '../../sass/base/variables';
+@import '../../sass/blocks/promo'; 
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import '../../sass/blocks/header';
+@import '../../sass/blocks/buttons';
+@import '../../sass/blocks/consultation';
+@import '../../sass/blocks/titles';
+@import '../../sass/blocks/forms';
+@import '../../sass/blocks/carousel';
+.our_advanteges {
+    min-height: 473px;
+    &_header {
+        font-size: 30px;
+        color: black;
+        font-family: "Museo Sans Cyrl";
+        text-align: center;
+        margin-top: 73px;
+    }
+    &_wrapper {
+        margin-top: 69px;
+        display: flex;
+        align-items: flex-end;
+    }
+    &_subheader {
+        font-weight: 700;
+        margin-top: 49px;
+        font-size: 18px;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl";
+        text-align: center;
+    }
+    &_text {
+        margin-top: 34px;
+        width: 280px;
+        height: 89px;
+        font-size: 14px;
+        color: #0d0d0d;
+        font-family: "Museo Sans Cyrl";
+        text-align: center;
+        span {
+            color: $main-color;
+            font-weight: 600;
+        }
+    }
+    &_icons {
+        width: 940px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_icon {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+        
+}
+
+@media (max-width: 991px) {
+    .our_advanteges {
+        &_wrapper {
+            margin-top: 69px;
+            display: flex;
+            align-items: flex-end;
+        }
+        &_icons {
+            width: 940px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        &_icon {
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        &_text {
+            margin: auto;
+        }
+    }
+}
+
+
+
