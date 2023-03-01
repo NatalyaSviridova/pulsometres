@@ -167,3 +167,33 @@
         }
     }
 }
+
+@media (max-width: 991px) {
+    .catalog {
+        padding:0 28px 100px 28px;
+        &-item {
+            width: 290px;
+            &__price {
+                font-size: 16px;
+            }
+        }
+    }
+   
+}
+
+@media (max-width: 767px) {
+    .catalog-item {
+        width: 320px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .catalog-item {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .catalog__tab {
+        font-size: 15px;
+    }
+}

@@ -1,33 +1,49 @@
-.reviews__wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    &_content {
+.reviews {
+    padding: 0 30px 10px;
+    &__wrapper {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        &_photo {
+        margin-top: 75px;
+        &_content {
             display: flex;
-            margin-bottom: 120px;
-            margin-top: 75px;
-        }
-        &_texts {
-            height: 203px;
-            width: 660px;
-            margin-left: 65px;
-            &_name {
-               font-size: 18px;
-               font-weight: 500;
+            justify-content: space-between;
+            flex-direction: column;
+            &_photo {
+                display: flex;
+                margin-bottom: 120px;
+                img {
+                    margin: auto;
+                }
             }
-            &_maraphone {
-               font-size: 14px; 
-               color: #646464;
+            &_texts {
+                height: 203px;
+                width: 660px;
+                margin-left: 65px;
+                &_name {
+                   font-size: 18px;
+                   font-weight: 500;
+                }
+                &_maraphone {
+                   font-size: 14px; 
+                   color: #646464;
+                   font-weight: 500;
+                   margin-bottom: 28px;
+                }
+                &_text {
+                    font-size: 16px;
+                    color: black;
+                    font-weight: 490;
+                    line-height: 20px;
+                }
             }
-            &_text {
-                font-size: 16px;
-                color: black;
-            }
-        }
-    }  
+        }  
+    }
+
 }
-    
+
+    @media (max-width:767px) {
+        .reviews {
+            padding: 0 30px 20px 30px;
+        }
+    }

@@ -26,13 +26,33 @@
     }
 }
 
-@media (max-width: 1200px) {
+// @media (max-width: 1200px) {
+//     .button {
+//         width: 130px;
+//         margin-right: 20px;
+//         &_main {
+//             font-size: 14px;
+//         }
+//     }
+// }
+
+@media (max-width: 991px) {
     .button {
-        width: 130px;
-        margin-right: 20px;
-        &_main {
+        width: 148px;
+        &_main {    
+            font-size: 14px;
+        }      
+    }
+}
+
+@media (max-width: 575px) {
+    .button {
+        width: 148px;
+        &_main {    
+            font-size: 13px;
+        }
+        &_submit {
             font-size: 14px;
         }
     }
-    
 }

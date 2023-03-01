@@ -59,3 +59,13 @@
         padding-right: 15px;
     }
 }
+
+@media (max-width: 575px) {
+    .promo__header {
+        font-size: 32px;
+    }
+    .promo__subheader {
+        font-size: 20px;
+    }
+
+}
