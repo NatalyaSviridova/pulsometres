@@ -1,0 +1,33 @@
+.reviews__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    &_content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        &_photo {
+            display: flex;
+            margin-bottom: 120px;
+            margin-top: 75px;
+        }
+        &_texts {
+            height: 203px;
+            width: 660px;
+            margin-left: 65px;
+            &_name {
+               font-size: 18px;
+               font-weight: 500;
+            }
+            &_maraphone {
+               font-size: 14px; 
+               color: #646464;
+            }
+            &_text {
+                font-size: 16px;
+                color: black;
+            }
+        }
+    }  
+}
+    
